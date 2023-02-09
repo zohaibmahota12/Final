@@ -1,0 +1,36 @@
+.bdr-white-cust {
+  border: 5px solid white;
+  
+}
+.card-body img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 50%;
+}
+.card a {
+  text-decoration: none;
+}
+.view-cunter {
+  flex: 1;
+}
+.art-cunter {
+  flex: 1;
+  /* border-right: 1px solid rgba(117, 117, 117, 0.2); */
+}
+.cunter h6 {
+  font-size: 14px;
+  font-weight: 700;
+  color: black !important;
+}
+.cunter {
+  background: rgba(69, 171, 52, 0.15);
+  border-radius: 0px 0px 5px 5px;
+  background-color: #6fed5a;
+}
+.art-cunter p {
+  color: black !important;
+  text-decoration: none !important;
+}
+.view-cunter p {
+  color: black !important;
+}

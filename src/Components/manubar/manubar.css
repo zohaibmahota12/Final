@@ -1,0 +1,86 @@
+.logo .profile {
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.logo .profile img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.logo .profile h3 {
+  color: #ffffff;
+  margin: 10px 0 5px;
+}
+
+.logo .profile p {
+  color: rgb(206, 240, 253);
+  font-size: 14px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 260px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #1e75cc;
+  background-image: linear-gradient(0deg, #05594e 0%, #07ad3b00 100%);
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  font-family: "montserrat";
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #fff;
+  position: relative;
+  padding: 15px 0px 15px 25px;
+  transition: all 0.5s;
+}
+
+nav ul li a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: #e3e9f7;
+  border-radius: 40px 0 0 40px;
+  z-index: -1;
+  transition: all 1s;
+}
+
+nav ul li a:hover {
+  color: #2b2626;
+}
+
+nav ul li a:hover:before {
+  width: 95%;
+}
+
+.wrapper {
+  margin-left: 260px;
+}
+
+.section {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.box-area h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
